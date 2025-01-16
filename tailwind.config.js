@@ -1,6 +1,6 @@
 
 module.exports = {
-  content: ["./src/index.html"],
+  content: ["./pisa/src/index.html"],
   theme: {
     extend: {},
   },
