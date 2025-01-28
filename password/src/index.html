@@ -10,7 +10,7 @@
     <article
       class="mx-auto mt-12 bg-[#ecfdf5] w-[550px] px-12 py-20 shadow-lg border-4 rounded-md border-[#273549]"
     >
-      <h1 class="font-extrabold text-4xl tracking-tight">Generate a</h1>
+      <h1 class="font-extrabold text-4xl ktracking-tight">Generate a</h1>
       <h1 class="font-extrabold text-4xl text-[#10b981] mb-1 tracking-tight">
         random password
       </h1>
@@ -18,15 +18,25 @@
         Never use an insecure password again.
       </p>
       <button
-        class="bg-[#10b981] text-white mb-8 p-2 px-4 rounded-lg cursor-pointer"
+        class="bg-[#10b981] text-white mb-8 p-2 px-4 rounded-lg cursor-pointer active:border-4 active:border-gray-500"
+        onclick="generatePassword1();generatePassword2()"
       >
         Generate passwords
       </button>
       <hr class="border-slate-400 mb-8" />
       <div class="flex justify-stretch gap-4 h-10">
-        <div class="bg-[#273549] flex-1 rounded-lg"></div>
-        <div class="bg-[#273549] flex-1 rounded-lg"></div>
+        <div
+          class="bg-[#273549] flex-1 rounded-lg flex justify-center items-center"
+        >
+          <p id="field-1" class="text-[#21edaa] font-bold">BHqyMX7XJaIUNz0</p>
+        </div>
+        <div
+          class="bg-[#273549] flex-1 rounded-lg flex justify-center items-center"
+        >
+          <p id="field-2" class="text-[#21edaa] font-bold">BHqyMX7XJaIUNz0</p>
+        </div>
       </div>
     </article>
+    <script src="./script.js"></script>
   </body>
 </html>
