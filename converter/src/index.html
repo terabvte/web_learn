@@ -6,22 +6,43 @@
     <title>Metric / Imperial Unit Converter</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
-  <body>
-    <article class="w-148 bg-emerald-600">
-      <div class="flex flex-col text-white p-4 items-center">
-        <h1 class="font-bold text-3xl mb-4">Metric/Imperial Unit Conversion</h1>
-        <div
-          class="font-bold text-6xl border-3 px-5 py-1 rounded-md border-emerald-300 mb-6"
-        >
-          20
-        </div>
+  <body class="bg-slate-900">
+    <article class="w-148 bg-emerald-600 mx-auto mt-8">
+      <div class="flex flex-col text-white p-8 items-center">
+        <h1 class="font-bold text-3xl mb-6 tracking-tight">
+          Metric/Imperial Unit Conversion
+        </h1>
+        <input
+          class="font-bold text-6xl border-3 px-5 py-1 rounded-md border-emerald-300 mb-6 w-28 text-center"
+        />
         <button
-          class="bg-white text-emerald-800 px-7 py-2 rounded-md mb-4 cursor-pointer"
+          class="bg-white text-emerald-800 px-7 py-2 rounded-md mb-2 cursor-pointer"
         >
           Convert
         </button>
       </div>
-      <div></div>
+      <div
+        class="bg-[#1f2937] flex flex-col gap-6 p-8 items-center text-gray-300 text-center"
+      >
+        <div class="bg-[#273549] w-128 p-6 rounded-md">
+          <h2 class="text-emerald-300 font-bold mb-2 text-xl">
+            Length (Meter/Feet)
+          </h2>
+          <p>0 meters = 0 feet | 0 feet = 0 meters</p>
+        </div>
+        <div class="bg-[#273549] w-128 p-6 rounded-md">
+          <h2 class="text-emerald-300 font-bold mb-2 text-xl">
+            Volume (Liters/Gallons)
+          </h2>
+          <p>0 liters = 0 gallons | 0 gallons = 0 liters</p>
+        </div>
+        <div class="bg-[#273549] w-128 p-6 rounded-md">
+          <h2 class="text-emerald-300 font-bold mb-2 text-xl">
+            Mass (Kilograms/Pounds)
+          </h2>
+          <p>0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+        </div>
+      </div>
     </article>
   </body>
 </html>
