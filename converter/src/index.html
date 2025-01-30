@@ -13,10 +13,13 @@
           Metric/Imperial Unit Conversion
         </h1>
         <input
+          type="text"
           class="font-bold text-6xl border-3 px-5 py-1 rounded-md border-emerald-300 mb-6 w-28 text-center outline-0"
+          id="input"
         />
         <button
-          class="bg-white text-emerald-800 px-7 py-2 rounded-md mb-2 cursor-pointer"
+          class="bg-white text-emerald-800 px-7 py-2 rounded-md mb-2 cursor-pointer focus:outline-4 focus:outline-amber-500 animate-bounce focus:animate-bounce"
+          id="butt"
         >
           Convert
         </button>
@@ -28,21 +31,22 @@
           <h2 class="text-emerald-300 font-bold mb-2 text-xl">
             Length (Meter/Feet)
           </h2>
-          <p>0 meters = 0 feet | 0 feet = 0 meters</p>
+          <p id="conv1">0 meters = 0 feet | 0 feet = 0 meters</p>
         </div>
         <div class="bg-[#273549] w-128 p-6 rounded-md">
           <h2 class="text-emerald-300 font-bold mb-2 text-xl">
             Volume (Liters/Gallons)
           </h2>
-          <p>0 liters = 0 gallons | 0 gallons = 0 liters</p>
+          <p id="conv2">0 liters = 0 gallons | 0 gallons = 0 liters</p>
         </div>
         <div class="bg-[#273549] w-128 p-6 rounded-md">
           <h2 class="text-emerald-300 font-bold mb-2 text-xl">
             Mass (Kilograms/Pounds)
           </h2>
-          <p>0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+          <p id="conv3">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
         </div>
       </div>
     </article>
+    <script src="./script.js"></script>
   </body>
 </html>
